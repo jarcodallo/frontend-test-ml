@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+	<head lang="es">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>FrontEnd Test</title>
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        
+        <link rel="stylesheet" type="text/css" href="resources/css/ui/app.css">
+	</head>
+	<body>
+        <header>
+            <h1 itemprop="title">Comics Store</h1>
+            <div class="content-separator"></div>
+            <div class="my-cart"><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i> My Cart(0)</div>
+        </header>
+
+        <section class="products-container">
+            <div class="nav-breadcrumbs">
+                <div class="dropdown">
+                    <button class="dropdown-toggle" id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <b itemprop="title">Categories</b>
+                    <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dLabel">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Terror</a></li>
+                        <li><a href="#">Underground</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Soft</a></li>
+                        <li><a href="#">Real</a></li>
+                    </ul>
+                </div>
+                <nav class="products-menu">
+                    <ul>
+                        <li><a href="#">Home</a><span>/ </span></li>
+                        <li><a href="#">Books</a><span>/ </span></li>
+                        <li><a href="#">Comics</a><span>/ </span></li>
+                        <li itemprop="title"><strong>Marvel - Avengers Assemble</strong></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="product-detail">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="product-img-box col-lg-4">
+                            <a href="resources/img/comic1.jpg" class="zoom" aria-owns="ch-zoom-33" aria-haspopup="true" data-align="top">
+                                <img itemprop="image" src="resources/img/comic1.jpg" alt="Marvel - Avengers Assemble" title="Marvel - Avengers Assemble" width="220px" height="340px">
+                            </a>
+                        </div>
+                        <form action="#" method="GET" class="ch-form" novalidate="novalidate">
+                            <div class="product-info col-lg-8">
+                                <h2 itemprop="name">Marvel - Avengers Assemble</h2>
+                                <div class="product-price ch-price">
+                                    <strong>$ 4799<sup>99</sup></strong>
+                                    <div class="arrow-discount arrow-left"> <p>50% OFF</p>  </div>
+                                </div>
+                                <fieldset class="product-quantity">
+                                    <div class="ch-form-row ch-form-row-inline">
+                                        <label for="quantity">Quantity:</label>
+                                        <select name="quantity">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                        </select>
+                                    </div>
+                                </fieldset>
+
+                                <fieldset class="product-payments">
+                                    <div class="ch-form-row ch-form-row-inline">
+                                        <label itemprop="name" for="payments">Payments:</label>
+                                        <select name="payments">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                        </select>
+                                    </div>
+                                </fieldset>
+                                <fieldset class="product-buy">
+                                    <div class="ch-form-row ch-form-row-inline">
+                                    <input type="submit" value="Buy" class="ch-btn">
+                                    </div>
+                                </fieldset>
+                                <div class="more-products col-lg-12">
+                                    <div class="productsCarousel ch-carousel">
+                                        <ul>
+                                            <li><img itemprop="image" src="resources/img/comic1.jpg" width="65px" height="100px"></li>
+                                            <li><img itemprop="image" src="resources/img/comic2.jpg" width="65px" height="100px"></li>
+                                            <li><img itemprop="image" src="resources/img/comic3.jpg" width="65px" height="100px"></li>
+                                            <li><img itemprop="image" src="resources/img/comic4.jpg" width="65px" height="100px"></li>
+                                            <li><img itemprop="image" src="resources/img/comic5.jpg" width="65px" height="100px"></li>
+                                            <li><img itemprop="image" src="resources/img/comic6.jpg" width="65px" height="100px"></li>
+                                            <li><img itemprop="image" src="resources/img/comic3.jpg" width="65px" height="100px"></li>
+                                            <li><img itemprop="image" src="resources/img/comic2.jpg" width="65px" height="100px"></li>
+                                            <li><img itemprop="image" src="resources/img/comic1.jpg" width="65px" height="100px"></li>
+                                            <li><img itemprop="image" src="resources/img/comic4.jpg" width="65px" height="100px"></li>
+                                            <li><img itemprop="image" src="resources/img/comic1.jpg" width="65px" height="100px"></li>
+                                            <li><img itemprop="image" src="resources/img/comic2.jpg" width="65px" height="100px"></li>
+                                            <li><img itemprop="image" src="resources/img/comic3.jpg" width="65px" height="100px"></li>
+                                            <li><img itemprop="image" src="resources/img/comic4.jpg" width="65px" height="100px"></li>
+                                            <li><img itemprop="image" src="resources/img/comic5.jpg" width="65px" height="100px"></li>
+                                            <li><img itemprop="image" src="resources/img/comic6.jpg" width="65px" height="100px"></li>
+                                            <li><img itemprop="image" src="resources/img/comic3.jpg" width="65px" height="100px"></li>
+                                            <li><img itemprop="image" src="resources/img/comic2.jpg" width="65px" height="100px"></li>
+                                            <li><img itemprop="image" src="resources/img/comic1.jpg" width="65px" height="100px"></li>
+                                            <li><img itemprop="image" src="resources/img/comic4.jpg" width="65px" height="100px"></li>
+                                            <li><img itemprop="image" src="resources/img/comic5.jpg" width="65px" height="100px"></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="tab-container">
+                            <div class="ch-tabs">
+                                <div id="product-description" class="ch-tabpanel" aria-expanded="true" role="tabpanel">
+                                    <a href="#product-description" class="ch-tab" aria-controls="product-description" role="tab">Product description</a>
+                                    <p>Nombre de la colección: <br>Los heroes mas poderosos de Marvel.<br>Primer tomo: The Avengers + Posters<br>Publicado por Salvat<br>Año 2016<br>Se retira gratis en microcentro sabados y domingos de 10 a 18hs<br>Envios por OCA de sucursal a sucursal</p>
+                                </div>
+                                <div id="question" class="ch-tabpanel" aria-expanded="true" role="tabpanel">
+                                    <a href="#question" class="ch-tab" aria-controls="question" role="tab">Question</a>
+                                    <div class="questions">
+                                        <div class="row-question">
+                                            <div class="question-buyer">
+                                                <h4>Buyer</h4>
+                                                <p>Cuando puedo pasar a ver el comic.</p>
+                                            </div>
+                                            <div class="answer-seller">
+                                                <h4>Seller</h4>
+                                                <p>Primero has una oferta y luego puedes vernir a verla</p>
+                                            </div>
+                                        </div>
+                                        <div class="row-question">
+                                            <div class="question-buyer">
+                                                <h4>Buyer</h4>
+                                                <p>Cuando puedo pasar a ver el comic.</p>
+                                            </div>
+                                            <div class="answer-seller">
+                                                <h4>Seller</h4>
+                                                <p>Primero has una oferta y luego puedes vernir a verla</p>
+                                            </div>
+                                        </div>
+                                        <div class="row-question">
+                                            <div class="question-buyer">
+                                                <h4>Buyer</h4>
+                                                <p>Cuando puedo pasar a ver el comic.</p>
+                                            </div>
+                                            <div class="answer-seller">
+                                                <h4>Seller</h4>
+                                                <p>Primero has una oferta y luego puedes vernir a verla</p>
+                                            </div>
+                                        </div>
+                                        <div class="row-question">
+                                            <div class="question-buyer">
+                                                <h4>Buyer</h4>
+                                                <p>Cuando puedo pasar a ver el comic.</p>
+                                            </div>
+                                            <div class="answer-seller">
+                                                <h4>Seller</h4>
+                                                <p>Primero has una oferta y luego puedes vernir a verla</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script type="text/javascript" src="resources/js/app.js"></script>
+	</body>
+</html>

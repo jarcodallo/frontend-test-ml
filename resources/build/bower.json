@@ -1,0 +1,17 @@
+{
+  "name": "front-end-ml-test",
+  "version": "1.0.0",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "~1.10.2",
+    "chico": "~1.0.0",
+    "fontawesome": "~4.5.0",
+    "normalize-css": "^4.0.0",
+    "bootstrap": "v3.3.6"
+  }
+}

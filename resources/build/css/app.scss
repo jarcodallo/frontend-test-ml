@@ -1,0 +1,233 @@
+$defaultLetterColor: #fff;
+$defaultBackgroundColor: #eee;
+$defaultBorderColor: #ccc;
+$borderSmall: 1px solid $defaultBorderColor;
+
+body {
+    padding: 0px;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 11px;
+}
+header {
+    background-color: #0067A9;
+    height: 48px;
+    width: 100%;
+    position: fixed;
+    z-index: 40;
+}
+header > h1,
+.my-cart,
+.content-separator {
+    display: inline-block;
+}
+header > h1,
+.my-cart {
+    margin: 0px;
+    margin-left: 240px;
+    width: 120px;
+    padding: 15px 0 0 0;
+    color: $defaultLetterColor;
+    border-left: $borderSmall;
+    border-right: $borderSmall;
+    height: 100%;
+    font-size: 1.5em;
+    text-align: center;
+}
+.my-cart {
+    margin: 0px;
+}
+.content-separator {
+    width: 600px;
+}
+.products-container {
+    height: 100%;
+    width: 845px;
+    padding-top: 48px;
+    margin-left: 240px;
+    border-left: $borderSmall;
+    border-right: $borderSmall;
+    border-bottom: $borderSmall;
+}
+.nav-breadcrumbs {
+    width: 100%;
+    border-bottom: $borderSmall;
+    height: 35px;
+}
+.products-container .dropdown,
+.products-container .products-menu {
+    float: left;
+}
+.products-container .dropdown > .dropdown-toggle {
+    margin-top: 3px;
+    height: 32px;
+    border: none;
+    background-color: $defaultLetterColor;
+    font-size: 14px;
+    border-right: $borderSmall;
+    border-bottom: $borderSmall;
+    width: 120px;
+}
+.products-container .dropdown > .dropdown-menu {
+    margin-top: 0px;
+    border-radius: 0px;
+    border-top: none;
+    border-left: none;
+}
+.products-container .products-menu {
+    float: left;
+    width: auto;
+    line-height: 35px;
+    list-style: none;
+}
+.products-container .products-menu li {
+    display: inline;
+    font-size: 12px;
+    padding: 0 5px;
+    color: #333;
+    font-weight: normal;
+}
+.products-container .products-menu li > span {
+    margin-left: 5px;
+}
+.products-container .product-img-box {
+    float: left;
+    text-align: center;
+    border-right: $borderSmall;
+    border-bottom: $borderSmall;
+    padding: 12px;
+}
+.products-container .more-products {
+    margin-top: 10px;
+    background-color: $defaultLetterColor;
+    border-top: $borderSmall;
+    height: 158px;
+    border-bottom: none;
+}
+.products-container .more-products .productsCarousel {
+    margin-top: 8px;
+}
+.products-container .product-info {
+    background: $defaultBackgroundColor;
+    border-bottom: $borderSmall;
+    padding: 0px;
+}
+.products-container .product-info .product-price,
+.products-container .product-info h2 {
+    padding: 20px 20px 10px;
+    margin: 0px;
+    background: $defaultLetterColor;
+    border-bottom: $borderSmall;
+}
+.products-container .product-info .product-price {
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.arrow-discount {
+    position: relative;
+    display: inline-block;
+    padding: 0 6px;
+    font-size: .4em;
+    line-height: 18px;
+    color: $defaultLetterColor;
+    background: #900;
+    border-radius: 4px;
+    margin-left: 8px;
+}
+.arrow-discount > p {
+    font-size: 12px;
+}
+.arrow-discount.arrow-left:before {
+    left: -18px;
+    border-color: transparent #900 transparent transparent;
+}
+.arrow-discount:before {
+    position: absolute;
+    display: inline-block;
+    top: 0px;
+    width: 1px;
+    height: 1px;
+    border-width: 9px 10px;
+    border-style: solid;
+    content: '';
+}
+.products-container .ch-form fieldset {
+    margin-bottom: 0px;
+}
+.products-container .ch-form fieldset > .ch-form-row.ch-form-row-inline {
+    padding: 0px;
+}
+.products-container .product-buy {
+    padding-top: 12px;
+    padding-left: 112px;
+}
+.products-container .ch-tabpanel .ch-tab:hover,
+.products-container .ch-tabpanel:target .ch-tab {
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,$defaultBackgroundColor),color-stop(100%,$defaultLetterColor));
+    background-image: -webkit-linear-gradient($defaultBackgroundColor,$defaultLetterColor 25px);
+    background-image: -moz-linear-gradient($defaultBackgroundColor,$defaultLetterColor 25px);
+    background-image: -o-linear-gradient($defaultBackgroundColor,$defaultLetterColor 25px);
+    background-image: linear-gradient($defaultBackgroundColor,$defaultLetterColor 25px);
+    border-bottom: 1px solid $defaultLetterColor;
+    cursor: default;
+    text-shadow: 2px 0 2px rgba(255,255,255,.5);
+    z-index: 15;
+}
+.products-container div.ch-tabs {
+    margin-top: 40px !important;
+}
+.products-container .ch-tabpanel .ch-tab {
+    position: absolute;
+    top: -28px;
+    left: 12px;
+}
+.products-container .ch-tabpanel {
+    position: absolute;
+    display: block;
+    padding: 10px 20px;
+    background-color: $defaultLetterColor;
+    border: 1px solid #ededed;
+    width: 96%;
+    z-index: 0;
+    height: 87%;
+}
+.products-container .ch-tabpanel#question .questions {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 87%;
+}
+.products-container .ch-tabpanel#question .questions h4 {
+    font-size: 11px;
+    margin: 5px 0;
+}
+.products-container .ch-tabpanel#question .ch-tab {
+    left: 136px;
+}
+.products-container .ch-tabpanel:first-child {
+    z-index: 1;
+}
+.products-container .tab-container {
+    position: relative;
+    display: block;
+    height: 17em;
+    padding-left: 15px;
+}
+.products-container .ch-tabpanel:target {
+    z-index: 2;
+}
+.products-container .question-buyer {
+    color: #3A87AD;
+    font-weight: bold;
+    height: 60px;
+}
+.products-container .question-buyer > p {
+    background-color: #D9EDF7;
+    padding: 4px;
+}
+.products-container .answer-seller {
+    color: #468847;
+    font-weight: bold;
+}
+.products-container .answer-seller > p {
+    background-color: #DFF0D8;
+    padding: 4px;
+}
