@@ -1,3 +1,6 @@
+var gulp = require('gulp');
+var rename = require("gulp-rename");
+var htmlmin = require('gulp-html-minifier');
 var elixir = require('laravel-elixir');
 
 elixir.config.bowerPath = './bower_components';
@@ -27,4 +30,11 @@ elixir(function(mix) {
    		elixir.config.bowerPath + '/chico/dist/ui/chico.js',
         './js/app.js'
    	], elixir.config.jsPath + '/app.js');
+});
+
+gulp.task('minifyIndex', function() {
+    gulp.src('../../../repositorio/index_base.html')
+        .pipe(htmlmin({collapseWhitespace: true}))
+        .pipe(rename('index.html'))
+        .pipe(gulp.dest("../../../repositorio"));
 });

@@ -2,10 +2,12 @@
   "private": true,
   "devDependencies": {
     "gulp": "^3.9.0",
-    "gulp-autoprefixer": "^3.1.0"
+    "gulp-autoprefixer": "^3.1.0",
+    "amdefine": ">=0.1.0",
+    "gulp-html-minifier": "^0.1.8",
+    "gulp-rename": "^1.2.2"
   },
   "dependencies": {
-  	"amdefine": ">=0.1.0",
     "laravel-elixir": "6.0.0-1"
   }
 }
