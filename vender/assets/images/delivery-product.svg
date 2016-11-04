@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="138px" height="84px" viewBox="0 0 138 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>4666EA60-A209-40D4-9645-30165B8845CA</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="6.79732143" y="1.95348837" width="124.2" height="78.1395349" rx="5"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="124.2" height="78.1395349" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M136.671256,22.7447688 L0.338839286,22.7447688 L0.338839286,11.7234492 C0.338839286,5.76005568 5.21890464,0.925770071 11.2127886,0.925770071 L126.581854,0.925770071 C132.587371,0.925770071 137.455804,5.75313592 137.455804,11.6931263 L137.455804,21.9673603 L136.671256,22.7447688 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="137.116964" height="21.8189987" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-sellers---MP-Skin" transform="translate(-1031.000000, -1336.000000)">
+            <g id="Como-funciona" transform="translate(-10.000000, 977.000000)">
+                <g id="Group-5" fill="#F8F8F8">
+                    <rect id="Rectangle-2" x="0" y="0" width="1912" height="794"></rect>
+                </g>
+                <g id="Group-18" transform="translate(1041.000000, 359.000000)">
+                    <g id="Group-17">
+                        <g id="Group-16">
+                            <g id="Group-15">
+                                <g id="Group-11">
+                                    <rect id="Rectangle-7" fill="#CCEEFC" x="10.7401786" y="5.86046512" width="124.2" height="78.1395349" rx="5"></rect>
+                                    <path d="M24.6219393,49.5060412 C22.086204,49.5060412 19.7617799,50.8843436 18.5626722,53.0962698 C17.3635646,55.3048748 17.485991,57.9867524 18.8897016,60.079115 L24.6219393,67.7245417 L30.3961039,60.079115 C31.8014916,57.9817705 31.923918,55.2849476 30.7147479,53.0763426 C29.5055778,50.8610951 27.1627059,49.4894352 24.6219393,49.5060412 Z M24.6428571,58.6046512 C26.276042,58.6046512 27.6,57.2927414 27.6,55.6744186 C27.6,54.0560958 26.276042,52.744186 24.6428571,52.744186 C23.0096722,52.744186 21.6857143,54.0560958 21.6857143,55.6744186 C21.6857143,57.2927414 23.0096722,58.6046512 24.6428571,58.6046512 Z" id="Combined-Shape" fill="#29A7F1"></path>
+                                    <use id="Rectangle-7" stroke="#29A7F1" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+                                    <use id="Rectangle-7" stroke="#29A7F1" mask="url(#mask-4)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-3"></use>
+                                    <polygon id="Rectangle-9" fill="#29A7F1" points="55.2 1.95348837 86.7428571 1.95348837 86.7428571 42.9767442 82.7280448 39.0697674 78.8588274 42.9767442 74.9872035 39.0697674 70.9868304 42.9767442 67.0285714 39.0697674 63.0857143 42.9767442 59.1428571 39.0697674 55.2 42.9767442"></polygon>
+                                    <polygon id="Path" fill="#FFFFFF" points="38.3827585 62.211202 72.9741778 62.211202 72.9741778 56.5002631 38.3827585 56.5002631"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

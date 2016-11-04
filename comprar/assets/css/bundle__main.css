@@ -1,0 +1,1031 @@
+/**
+ * Payment Methods Logos
+ * @authors: ndevalle, ipianciola, gandre, aramos, dudesl, sabustamante
+ * @description: common component for each country's payment methods logos.
+ * @version: 1.6.0
+ */
+/* Common Structure
+---------------------------------------------------------------*/
+[class*='paymentmethod'] {
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 2px;
+  overflow: hidden;
+  text-indent: 100%;
+  vertical-align: middle;
+  white-space: nowrap; }
+
+/* Common Payment Methods to all Contries
+---------------------------------------------------------------*/
+.paymentmethod-account_money {
+  background-position: 0 0; }
+
+.paymentmethod-visa,
+.paymentmethod-debvisa,
+.paymentmethod-visa.paymentmethod-large,
+.paymentmethod-debvisa.paymentmethod-large {
+  background-position: 0 -50px; }
+
+.paymentmethod-master,
+.paymentmethod-debmaster,
+.paymentmethod-master.paymentmethod-large,
+.paymentmethod-debmaster.paymentmethod-large {
+  background-position: 0 -100px; }
+
+.paymentmethod-amex,
+.paymentmethod-amex.paymentmethod-large {
+  background-position: 0 -150px; }
+
+.paymentmethod-bitcoin,
+.paymentmethod-bitcoin.paymentmethod-large {
+  background-position: 0 -250px; }
+
+/* Sprite position for Mexico Logos
+---------------------------------------------------------------*/
+.paymentmethod-diners,
+.paymentmethod-diners.paymentmethod-large {
+  background-position: 0 -200px; }
+
+.paymentmethod-abitab,
+.paymentmethod-abitab.paymentmethod-large {
+  background-position: 0 -250px; }
+
+.paymentmethod-oca,
+.paymentmethod-oca.paymentmethod-large {
+  background-position: 0 -300px; }
+
+.paymentmethod-redpagos,
+.paymentmethod-redpagos.paymentmethod-large {
+  background-position: 0 -350px; }
+
+.paymentmethod-lider,
+.paymentmethod-lider.paymentmethod-large {
+  background-position: 0 -400px; }
+
+/* Uruguay Sprite for Default Size
+---------------------------------------------------------------*/
+[class*='paymentmethod'] {
+  background-image: url("https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.0/uy/payment-methods-default.png");
+  height: 16px;
+  /* most common height */ }
+
+/*
+ * Retina logo for small screens
+ */
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  [class*='paymentmethod'] {
+    background-image: url("https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.0/uy/payment-methods-default@2x.png");
+    -webkit-background-size: 72px 418px;
+            background-size: 72px 418px;
+    /* original x1 image size */
+    height: 16px;
+    /* most common height */ } }
+
+/* Uruguay Default Size
+---------------------------------------------------------------*/
+.paymentmethod-account_money {
+  height: 19px;
+  width: 72px; }
+
+.paymentmethod-visa {
+  width: 39px;
+  height: 12px; }
+
+.paymentmethod-master {
+  height: 26px;
+  width: 30px; }
+
+.paymentmethod-diners {
+  height: 16px;
+  width: 60px; }
+
+.paymentmethod-abitab {
+  width: 61px;
+  height: 16px; }
+
+.paymentmethod-oca {
+  height: 9px;
+  width: 44px; }
+
+.paymentmethod-redpagos {
+  height: 13px;
+  width: 62px; }
+
+.paymentmethod-lider {
+  height: 18px;
+  width: 24px; }
+
+/* Uruguay Sprite for Large Size
+---------------------------------------------------------------*/
+.paymentmethod-large {
+  background-image: url("https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.0/uy/payment-methods-large.png");
+  height: 26px;
+  margin: 5px; }
+
+/*
+ * Retina logo for small screens
+ */
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  .paymentmethod-large {
+    background-image: url("https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.0/uy/payment-methods-large@2x.png");
+    -webkit-background-size: 116px 430px;
+            background-size: 116px 430px;
+    /* original x1 image size */
+    height: 26px;
+    margin: 5px; } }
+
+/* Uruguay Large Size
+---------------------------------------------------------------*/
+.paymentmethod-account_money.paymentmethod-large {
+  height: 31px;
+  width: 116px; }
+
+.paymentmethod-visa.paymentmethod-large {
+  height: 20px;
+  width: 61px; }
+
+.paymentmethod-master.paymentmethod-large {
+  height: 35px;
+  width: 48px; }
+
+.paymentmethod-diners.paymentmethod-large {
+  height: 25px;
+  width: 96px; }
+
+.paymentmethod-abitab.paymentmethod-large {
+  width: 98px;
+  height: 25px; }
+
+.paymentmethod-oca.paymentmethod-large {
+  height: 14px;
+  width: 70px; }
+
+.paymentmethod-redpagos.paymentmethod-large {
+  height: 20px;
+  width: 100px; }
+
+.paymentmethod-lider.paymentmethod-large {
+  height: 30px;
+  width: 41px; }
+
+/**
+ * Payment Methods Logos
+ * @authors: ndevalle, ipianciola, gandre, aramos, dudesl, sabustamante
+ * @description: common component for each country's payment methods logos.
+ * @version: 1.6.0
+ */
+/* Common Structure
+---------------------------------------------------------------*/
+[class*='paymentmethod'] {
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 2px;
+  overflow: hidden;
+  text-indent: 100%;
+  vertical-align: middle;
+  white-space: nowrap; }
+
+/* Common Payment Methods to all Contries
+---------------------------------------------------------------*/
+.paymentmethod-account_money {
+  background-position: 0 0; }
+
+.paymentmethod-visa,
+.paymentmethod-debvisa,
+.paymentmethod-visa.paymentmethod-large,
+.paymentmethod-debvisa.paymentmethod-large {
+  background-position: 0 -50px; }
+
+.paymentmethod-master,
+.paymentmethod-debmaster,
+.paymentmethod-master.paymentmethod-large,
+.paymentmethod-debmaster.paymentmethod-large {
+  background-position: 0 -100px; }
+
+.paymentmethod-amex,
+.paymentmethod-amex.paymentmethod-large {
+  background-position: 0 -150px; }
+
+.paymentmethod-bitcoin,
+.paymentmethod-bitcoin.paymentmethod-large {
+  background-position: 0 -250px; }
+
+/* Sprite position for Mexico Logos
+---------------------------------------------------------------*/
+.paymentmethod-diners,
+.paymentmethod-diners.paymentmethod-large {
+  background-position: 0 -200px; }
+
+.paymentmethod-abitab,
+.paymentmethod-abitab.paymentmethod-large {
+  background-position: 0 -250px; }
+
+.paymentmethod-oca,
+.paymentmethod-oca.paymentmethod-large {
+  background-position: 0 -300px; }
+
+.paymentmethod-redpagos,
+.paymentmethod-redpagos.paymentmethod-large {
+  background-position: 0 -350px; }
+
+.paymentmethod-lider,
+.paymentmethod-lider.paymentmethod-large {
+  background-position: 0 -400px; }
+
+/* Uruguay Sprite for Default Size
+---------------------------------------------------------------*/
+[class*='paymentmethod'] {
+  background-image: url("https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.0/uy/payment-methods-default.png");
+  height: 16px;
+  /* most common height */ }
+
+/*
+ * Retina logo for small screens
+ */
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  [class*='paymentmethod'] {
+    background-image: url("https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.0/uy/payment-methods-default@2x.png");
+    -webkit-background-size: 72px 418px;
+            background-size: 72px 418px;
+    /* original x1 image size */
+    height: 16px;
+    /* most common height */ } }
+
+/* Uruguay Default Size
+---------------------------------------------------------------*/
+.paymentmethod-account_money {
+  height: 19px;
+  width: 72px; }
+
+.paymentmethod-visa {
+  width: 39px;
+  height: 12px; }
+
+.paymentmethod-master {
+  height: 26px;
+  width: 30px; }
+
+.paymentmethod-diners {
+  height: 16px;
+  width: 60px; }
+
+.paymentmethod-abitab {
+  width: 61px;
+  height: 16px; }
+
+.paymentmethod-oca {
+  height: 9px;
+  width: 44px; }
+
+.paymentmethod-redpagos {
+  height: 13px;
+  width: 62px; }
+
+.paymentmethod-lider {
+  height: 18px;
+  width: 24px; }
+
+/**
+ * Payment Methods Logos
+ * @authors: ndevalle, ipianciola, gandre, aramos, dudesl, sabustamante
+ * @description: common component for each country's payment methods logos.
+ * @version: 1.6.0
+ */
+/* Common Structure
+---------------------------------------------------------------*/
+[class*='paymentmethod'] {
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 2px;
+  overflow: hidden;
+  text-indent: 100%;
+  vertical-align: middle;
+  white-space: nowrap; }
+
+/* Common Payment Methods to all Contries
+---------------------------------------------------------------*/
+.paymentmethod-account_money {
+  background-position: 0 0; }
+
+.paymentmethod-visa,
+.paymentmethod-debvisa,
+.paymentmethod-visa.paymentmethod-large,
+.paymentmethod-debvisa.paymentmethod-large {
+  background-position: 0 -50px; }
+
+.paymentmethod-master,
+.paymentmethod-debmaster,
+.paymentmethod-master.paymentmethod-large,
+.paymentmethod-debmaster.paymentmethod-large {
+  background-position: 0 -100px; }
+
+.paymentmethod-amex,
+.paymentmethod-amex.paymentmethod-large {
+  background-position: 0 -150px; }
+
+.paymentmethod-bitcoin,
+.paymentmethod-bitcoin.paymentmethod-large {
+  background-position: 0 -250px; }
+
+/* Sprite position for Mexico Logos
+---------------------------------------------------------------*/
+.paymentmethod-diners,
+.paymentmethod-diners.paymentmethod-large {
+  background-position: 0 -200px; }
+
+.paymentmethod-abitab,
+.paymentmethod-abitab.paymentmethod-large {
+  background-position: 0 -250px; }
+
+.paymentmethod-oca,
+.paymentmethod-oca.paymentmethod-large {
+  background-position: 0 -300px; }
+
+.paymentmethod-redpagos,
+.paymentmethod-redpagos.paymentmethod-large {
+  background-position: 0 -350px; }
+
+.paymentmethod-lider,
+.paymentmethod-lider.paymentmethod-large {
+  background-position: 0 -400px; }
+
+/* Uruguay Sprite for Large Size
+---------------------------------------------------------------*/
+.paymentmethod-large {
+  background-image: url("https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.0/uy/payment-methods-large.png");
+  height: 26px;
+  margin: 5px; }
+
+/*
+ * Retina logo for small screens
+ */
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  .paymentmethod-large {
+    background-image: url("https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.0/uy/payment-methods-large@2x.png");
+    -webkit-background-size: 116px 430px;
+            background-size: 116px 430px;
+    /* original x1 image size */
+    height: 26px;
+    margin: 5px; } }
+
+/* Uruguay Large Size
+---------------------------------------------------------------*/
+.paymentmethod-account_money.paymentmethod-large {
+  height: 31px;
+  width: 116px; }
+
+.paymentmethod-visa.paymentmethod-large {
+  height: 20px;
+  width: 61px; }
+
+.paymentmethod-master.paymentmethod-large {
+  height: 35px;
+  width: 48px; }
+
+.paymentmethod-diners.paymentmethod-large {
+  height: 25px;
+  width: 96px; }
+
+.paymentmethod-abitab.paymentmethod-large {
+  width: 98px;
+  height: 25px; }
+
+.paymentmethod-oca.paymentmethod-large {
+  height: 14px;
+  width: 70px; }
+
+.paymentmethod-redpagos.paymentmethod-large {
+  height: 20px;
+  width: 100px; }
+
+.paymentmethod-lider.paymentmethod-large {
+  height: 30px;
+  width: 41px; }
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: local("Lato Hairline"), local("Lato-Hairline"), url(https://fonts.gstatic.com/s/lato/v11/ifRS04pY1nJBsu8-cUFUS-vvDin1pK8aKteLpeZ5c0A.woff2) format("woff2"); }
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Lato Light"), local("Lato-Light"), url(https://fonts.gstatic.com/s/lato/v11/22JRxvfANxSmnAhzbFH8PgLUuEpTyoUstqEm5AMlJo4.woff2) format("woff2"); }
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lato Regular"), local("Lato-Regular"), url(https://fonts.gstatic.com/s/lato/v11/MDadn8DQ_3oT6kvnUq_2r_esZW2xOQ-xsNqO47m55DA.woff2) format("woff2"); }
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Lato Bold"), local("Lato-Bold"), url(https://fonts.gstatic.com/s/lato/v11/MgNNr5y1C_tIEuLEmicLmwLUuEpTyoUstqEm5AMlJo4.woff2) format("woff2"); }
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Lato Black"), local("Lato-Black"), url(https://fonts.gstatic.com/s/lato/v11/lEjOv129Q3iN1tuqWOeRBgLUuEpTyoUstqEm5AMlJo4.woff2) format("woff2"); }
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Lato Light Italic"), local("Lato-LightItalic"), url(https://fonts.gstatic.com/s/lato/v11/2HG_tEPiQ4Z6795cGfdivJBw1xU1rKptJj_0jans920.woff2) format("woff2"); }
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Lato Italic"), local("Lato-Italic"), url(https://fonts.gstatic.com/s/lato/v11/1KWMyx7m-L0fkQGwYhWwuuvvDin1pK8aKteLpeZ5c0A.woff2) format("woff2"); }
+
+main {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-size: 1.85em;
+  line-height: 1.5;
+  color: #343434; }
+
+.ch-btn, .ch-btn:active, .ch-btn:visited, .ch-btn:link {
+  font-weight: 300;
+  color: #FFF; }
+
+.text-light {
+  font-weight: 300; }
+
+.banner-hero {
+  line-height: 500px;
+  text-align: center; }
+  .banner-hero .banner-text {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 320px; }
+    @media (min-width: 767px) {
+      .banner-hero .banner-text {
+        max-width: none; } }
+  @media (min-width: 1025px) {
+    .banner-hero {
+      height: 499px;
+      background: url("../images/main_img.jpg") center top no-repeat fixed; } }
+  @media (max-width: 1024px) {
+    .banner-hero {
+      height: 499px;
+      background: url("../images/main_img.jpg") center top no-repeat fixed; } }
+  @media (max-width: 769px) {
+    .banner-hero {
+      height: 500px;
+      background: url("../images/main_img.jpg") center top no-repeat fixed; } }
+  @media (max-width: 480px) {
+    .banner-hero {
+      background: url("../images/main_img-mobile.jpg") center top no-repeat fixed; } }
+  .banner-hero .isoMP {
+    display: block;
+    margin: 0 auto; }
+    @media (min-width: 767px) {
+      .banner-hero .isoMP {
+        width: 111px;
+        height: 79px; } }
+  .banner-hero .main-title {
+    display: block;
+    font-size: 30px;
+    line-height: 1.3;
+    font-size: 45px;
+    font-weight: 300;
+    padding: 20px;
+    color: #FFF;
+    margin: 15px auto 0;
+    text-align: center;
+    max-width: 760px; }
+    @media (max-width: 1024px) {
+      .banner-hero .main-title {
+        margin: 15px auto 0 auto; } }
+    @media (max-width: 769px) {
+      .banner-hero .main-title {
+        font-size: 42px; } }
+    @media (max-width: 480px) {
+      .banner-hero .main-title {
+        font-size: 26px;
+        margin: 15px 0 0 0;
+        padding: 10px; } }
+    @media (max-width: 320px) {
+      .banner-hero .main-title {
+        margin: 15px 0 0 0; } }
+    .banner-hero .main-title strong {
+      font-size: 60px;
+      font-weight: 600; }
+      @media (max-width: 769px) {
+        .banner-hero .main-title strong {
+          font-size: 54px; } }
+      @media (max-width: 480px) {
+        .banner-hero .main-title strong {
+          font-size: 35px; } }
+      @media (max-width: 320px) {
+        .banner-hero .main-title strong {
+          font-size: 35px; } }
+  .banner-hero .sub-title {
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    line-height: 1.2em;
+    font-weight: 300;
+    margin: 0 auto;
+    max-width: 770px; }
+    @media (max-width: 769px) {
+      .banner-hero .sub-title {
+        font-size: 18px; } }
+    @media (max-width: 480px) {
+      .banner-hero .sub-title {
+        /* max-width: 250px; */
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0 auto; } }
+
+.wrapper {
+  color: #000;
+  margin: 0 auto;
+  padding: 62px 0 62px;
+  overflow: hidden; }
+  @media (min-width: 767px) {
+    .wrapper {
+      padding: 100px 0 100px; } }
+  .wrapper p {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.4em; }
+    @media (max-width: 480px) {
+      .wrapper p {
+        font-size: 16px; } }
+  .wrapper p.gray {
+    color: #666; }
+    .wrapper p.gray + p {
+      margin: 0; }
+  .wrapper .content {
+    max-width: 1000px;
+    margin: 0 auto; }
+    @media (max-width: 1024px) {
+      .wrapper .content {
+        margin: 0 20px; } }
+  .wrapper div[class^="mesh"] {
+    margin-top: 25px; }
+  .wrapper .title {
+    font-size: 38px;
+    font-weight: 300;
+    line-height: 1.3;
+    margin: 0 auto 90px; }
+    @media (max-width: 480px) {
+      .wrapper .title {
+        font-size: 22px;
+        margin: 0 auto 47px; } }
+  .wrapper .subtitle {
+    font-size: 22px;
+    line-height: 1.4em;
+    text-align: center;
+    font-weight: 400;
+    margin: 35px auto 30px; }
+    @media (max-width: 769px) {
+      .wrapper .subtitle {
+        margin: 24px auto 16px; } }
+    @media (max-width: 480px) {
+      .wrapper .subtitle {
+        font-size: 18px;
+        line-height: 0.8em; } }
+  .wrapper .legend {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4em;
+    margin: 0; }
+    @media (max-width: 480px) {
+      .wrapper .legend {
+        font-size: 15px;
+        max-width: 250px;
+        margin: 0 auto; } }
+  @media (max-width: 1024px) {
+    .wrapper {
+      width: 100%; } }
+  @media (max-width: 480px) {
+    .wrapper {
+      width: 100%; } }
+  .wrapper.donations {
+    padding-top: 30px; }
+    .wrapper.donations .item {
+      margin-bottom: 30px; }
+      .wrapper.donations .item a .value, .wrapper.donations .item a:hover .value, .wrapper.donations .item a:visited .value {
+        color: #343434; }
+  .wrapper .one-line-mobile {
+    display: block; }
+    @media (min-width: 767px) {
+      .wrapper .one-line-mobile {
+        display: inline; } }
+
+.contentStory {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  margin: -100px auto 30px;
+  padding: 35px;
+  background-color: #ffdc16;
+  height: 325px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  @media (max-width: 1024px) {
+    .contentStory {
+      padding: 3.5%;
+      height: auto; } }
+  @media (max-width: 769px) {
+    .contentStory {
+      padding: 4%;
+      margin: 0;
+      width: 100%;
+      margin-bottom: 4%; } }
+  .contentStory .mainText {
+    color: #666;
+    line-height: 32px;
+    font-style: italic;
+    padding: 0 12%;
+    margin-top: 45px; }
+    .contentStory .mainText strong {
+      font-size: 18px; }
+    @media (max-width: 1024px) {
+      .contentStory .mainText {
+        padding: 0 8%;
+        margin-top: 5.7%; } }
+    @media (max-width: 769px) {
+      .contentStory .mainText {
+        width: 90%;
+        margin-bottom: 4%; } }
+    @media (max-width: 480px) {
+      .contentStory .mainText {
+        margin: 10px 0 20px;
+        font-size: 1em;
+        line-height: 1.4em;
+        padding: 0; }
+        .contentStory .mainText strong {
+          font-size: 20px; } }
+  .contentStory .mainText, .contentStory .video {
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden; }
+    @media (max-width: 769px) {
+      .contentStory .mainText, .contentStory .video {
+        display: inline-block;
+        width: 100%;
+        height: auto; } }
+
+.logos {
+  text-align: center;
+  background-color: #f8f8f8; }
+  .logos .detail-list {
+    text-align: left; }
+  .logos .detail-list__item {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.70;
+    margin-top: 43px;
+    position: relative;
+    padding-left: 60px; }
+    .logos .detail-list__item:first-child {
+      margin-top: 0; }
+    .logos .detail-list__item::before {
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      content: '';
+      background-image: url("../images/bullet.png");
+      background-repeat: no-repeat;
+      width: 30px;
+      height: 30px; }
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        .logos .detail-list__item::before {
+          background-image: url("../images/bullet@2x.png");
+          -webkit-background-size: 30px 30px;
+                  background-size: 30px 30px; } }
+    @media (min-width: 767px) {
+      .logos .detail-list__item {
+        font-size: 22px;
+        margin-top: 70px;
+        line-height: 1.27; } }
+  @media (min-width: 767px) {
+    .logos .column {
+      height: 360px; } }
+  .logos .column-left {
+    display: none; }
+    @media (min-width: 767px) {
+      .logos .column-left {
+        display: block;
+        line-height: 360px; } }
+    @media (min-width: 1023px) {
+      .logos .column-left {
+        line-height: 0; } }
+  .logos .logos--logo-ong {
+    vertical-align: middle; }
+    @media (min-width: 767px) {
+      .logos .logos--logo-ong {
+        width: 100%;
+        height: auto; } }
+    @media (min-width: 1023px) {
+      .logos .logos--logo-ong {
+        width: auto; } }
+    @media (min-width: 767px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 767px) and (min-resolution: 192dpi) {
+      .logos .logos--logo-ong {
+        display: block;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        width: 100%;
+        height: 283px;
+        background-image: url("../images/monitor@2x.png");
+        padding-left: 100%;
+        background-repeat: no-repeat;
+        background-position: center top;
+        -webkit-background-size: 371px 274px;
+                background-size: 371px 274px; } }
+  @media (max-width: 480px) {
+    .logos {
+      padding-top: 60px; } }
+  .logos .rows--row-image {
+    height: 100px;
+    display: table-cell;
+    margin-top: 25px;
+    vertical-align: middle;
+    text-align: center;
+    width: 25%; }
+    @media (max-width: 769px) {
+      .logos .rows--row-image {
+        display: block;
+        margin-top: 39px;
+        width: 100%; }
+        .logos .rows--row-image.first {
+          height: 70px; }
+        .logos .rows--row-image.second {
+          height: 73px; }
+        .logos .rows--row-image.third {
+          height: 63px; }
+        .logos .rows--row-image.fourth {
+          height: 73px; } }
+
+.medios-pago {
+  text-align: center; }
+  .medios-pago .logos--logo-mediospago {
+    margin: 30px auto 50px;
+    width: 100%;
+    height: auto; }
+    .medios-pago .logos--logo-mediospago:last-child {
+      margin-bottom: 0; }
+    .medios-pago .logos--logo-mediospago ul {
+      width: 280px;
+      margin: 0 auto; }
+    @media (min-width: 767px) {
+      .medios-pago .logos--logo-mediospago ul {
+        width: 100%; } }
+  .medios-pago .title {
+    max-width: 200px;
+    margin-bottom: 50px; }
+    @media (min-width: 767px) {
+      .medios-pago .title {
+        max-width: 700px; } }
+  @media (max-width: 815px) {
+    .medios-pago span.logos--logo-mediospago {
+      background: url("../images/medios_pago_c.png") no-repeat 0 0;
+      -webkit-background-size: contain;
+              background-size: contain;
+      display: block;
+      height: 70px;
+      width: 394px; }
+      .medios-pago span.logos--logo-mediospago img {
+        display: none; } }
+  @media (max-width: 480px) {
+    .medios-pago span.logos--logo-mediospago {
+      background: url("../images/medios_pago_b@2x.png") no-repeat 0 0;
+      -webkit-background-size: contain;
+              background-size: contain;
+      display: block;
+      height: 112px;
+      width: 280px; } }
+  .medios-pago .logos--logo-mediospago.last {
+    height: auto;
+    margin-bottom: 0;
+    width: 100%;
+    max-width: 191px; }
+
+.mercado-pago {
+  background-color: #69c1f5;
+  text-align: left;
+  padding-bottom: 0;
+  overflow: visible; }
+  .mercado-pago .content {
+    text-align: center; }
+  .mercado-pago .title {
+    color: #fff;
+    margin-bottom: 60px;
+    font-weight: normal; }
+  .mercado-pago .sub-title {
+    max-width: 654px;
+    color: #333;
+    line-height: 1.36;
+    font-size: 16px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+    @media (min-width: 767px) {
+      .mercado-pago .sub-title {
+        font-size: 22px; } }
+  .mercado-pago__logo {
+    margin-top: 21px;
+    position: relative;
+    left: 0px;
+    top: 15.49px;
+    display: block;
+    width: 100%;
+    height: auto;
+    /*
+    * TODO: workaround por que se corta la imagen en tablet. Corregir bien. @lean gatti
+    */ }
+    @media (min-width: 767px) {
+      .mercado-pago__logo {
+        content: '';
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        width: 100%;
+        height: 440px;
+        background-image: url("../images/mp.png");
+        padding-left: 100%;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: bottom;
+        -webkit-background-size: 90% 90%;
+                background-size: 90%; } }
+    @media (min-width: 1024px) {
+      .mercado-pago__logo {
+        top: 17.49px; } }
+    @media (min-width: 784px) {
+      .mercado-pago__logo {
+        width: 784px;
+        height: 496px;
+        -webkit-background-size: 784px 496px;
+                background-size: 784px 496px; } }
+    @media (min-width: 767px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 767px) and (min-resolution: 192dpi) {
+      .mercado-pago__logo {
+        background-image: url("../images/mp@2x.png"); } }
+
+.faqs {
+  background-color: #f8f8f8;
+  text-align: center; }
+  @media (max-width: 480px) {
+    .faqs .title {
+      max-width: 250px; } }
+  .faqs input {
+    display: none; }
+  .faqs label {
+    cursor: pointer;
+    color: #666;
+    display: block;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 300; }
+    @media (max-width: 480px) {
+      .faqs label {
+        font-size: 18px; } }
+  .faqs .row--question {
+    display: block;
+    text-align: left;
+    line-height: 1.4em;
+    border-bottom: solid 1px #e7e7e7;
+    padding-bottom: 15px;
+    margin-bottom: 15px; }
+  .faqs .question--content {
+    color: #000;
+    display: none;
+    font-size: 16px;
+    line-height: 1.4em;
+    font-weight: 300;
+    text-align: left;
+    margin: 28px 0 13px;
+    padding-right: 50px; }
+    @media (max-width: 480px) {
+      .faqs .question--content {
+        font-size: 15px; } }
+  .faqs i.ch-icon-chevron-down {
+    float: right;
+    margin-top: 8px; }
+  .faqs [id^=q]:checked ~ span,
+  .faqs [id^=q]:checked ~ div {
+    color: #000;
+    display: block; }
+    .faqs [id^=q]:checked ~ span i.ch-icon-chevron-down,
+    .faqs [id^=q]:checked ~ div i.ch-icon-chevron-down {
+      margin-top: 10px;
+      -webkit-transform: rotate(180deg);
+          -ms-transform: rotate(180deg);
+              transform: rotate(180deg); }
+
+.cta {
+  color: #000000;
+  text-align: center; }
+  .cta .title {
+    margin-bottom: 0;
+    max-width: none;
+    font-size: 26px; }
+    @media (min-width: 767px) {
+      .cta .title {
+        font-size: 38px; } }
+
+.ml-circle {
+  width: 75%;
+  margin: 0 auto;
+  position: relative;
+  max-width: 300px;
+  min-width: 230px; }
+  .ml-circle .circle {
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+    background: url("../images/circle.svg") #FFF059 center center no-repeat;
+    -webkit-background-size: 95% 95%;
+            background-size: 95%;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out; }
+    .ml-circle .circle:hover {
+      background-position: center center;
+      -webkit-background-size: 100% 100%;
+              background-size: 100%; }
+    .ml-circle .circle .value {
+      position: absolute;
+      width: 100%;
+      padding-top: 46%;
+      text-align: center;
+      font-size: 2em;
+      font-weight: 300;
+      line-height: .2; }
+
+.action-container {
+  text-align: center;
+  margin-top: 20px; }
+  .action-container .ch-btn {
+    padding: 10px 20px; }
+
+.description {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  @media (max-width: 769px) {
+    .description {
+      margin-top: 40px; } }
+  @media (max-width: 480px) {
+    .description {
+      font-size: .85em; } }
+
+.greetings:before {
+  content: " ";
+  height: 10px;
+  width: 50px;
+  background: #FFF059;
+  display: inline-block; }
+
+.greetings .content {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: .7; }
+  .greetings .content .text-light {
+    font-size: 28px; }
+
+.social-links a {
+  background: url("../images/social-icons.jpg");
+  height: 42px;
+  width: 45px;
+  display: inline-block;
+  text-indent: -999999px;
+  -webkit-background-size: 200% 200%;
+          background-size: 200%;
+  background-position: left center; }
+
+.social-links .icon-facebook {
+  background-position: right center; }
+
+@media (max-width: 480px) {
+  .nav-footer-navigation {
+    display: none; } }
+
+.paymentmethod-large {
+  margin-left: 15px;
+  margin-right: 15px; }
+
+.separator {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+  border-bottom: 1px solid #CCC; }
+  .separator-small {
+    width: 25%; }
+
+.one-line {
+  white-space: nowrap; }

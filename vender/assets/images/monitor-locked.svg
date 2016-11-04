@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="210px" height="196px" viewBox="0 0 210 196" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>12BB3730-8B59-4859-B2BE-E1C1CB83E6DD</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="26.3171168" y="57.8835004" width="180.364795" height="110.387246" rx="7"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180.364795" height="110.387246" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-sellers---MP-Skin" transform="translate(-848.000000, -1838.000000)">
+            <g id="Group-9" transform="translate(847.000000, 1840.000000)">
+                <rect id="Rectangle-6" fill="#CCEEFC" x="33.2012693" y="64.7676529" width="177.721693" height="108.769609" rx="7"></rect>
+                <use id="Rectangle-6" stroke="#00A9EE" mask="url(#mask-2)" stroke-width="6" xlink:href="#path-1"></use>
+                <path d="M102.070331,192.307378 L109.189994,166.677917" id="Path-3" stroke="#00A9EE" stroke-width="2"></path>
+                <path d="M133.238633,192.307378 L126.11897,166.677917" id="Path-3" stroke="#00A9EE" stroke-width="2"></path>
+                <path d="M85.2362831,190.5 L146.940029,190.5" id="Path-4" stroke="#00A9EE" stroke-width="7"></path>
+                <polyline id="Path-5" stroke="#FFFFFF" stroke-width="10" points="91.0281501 103.502323 111.590977 124.069877 126.407533 109.249915 150.231861 85.4201103"></polyline>
+                <path d="M206.681912,148.249137 L206.681912,162.952674 C206.681912,165.975604 204.260188,168.426174 201.271686,168.426174 L31.7273424,168.426174 C28.7393573,168.426174 26.3171168,165.97386 26.3171168,162.955474 L26.3171168,148.011719" id="Rectangle-6" fill="#00A9EE"></path>
+                <g id="Group-2" transform="translate(0.157337, 0.056620)">
+                    <g id="Group-3">
+                        <rect id="Rectangle" fill="#29A7F1" transform="translate(38.695024, 71.224423) rotate(-90.000000) translate(-38.695024, -71.224423) " x="12.4239808" y="33.4668976" width="52.5420863" height="75.515051" rx="5"></rect>
+                        <path d="M66.6609731,45.1588586 C66.6609731,37.2927075 66.6609731,30.4632668 66.6609731,28.6399412 C66.6609731,23.9728712 65.5459999,19.5694966 63.5710639,15.6880394 C58.9278506,6.56246124 49.5311658,0.321797092 38.695024,0.321797092 C23.2498567,0.321797092 10.7290748,13.0002621 10.7290748,28.6399412 C10.7290748,30.7691787 10.7290748,38.0793226 10.7290748,45.1588586" id="Oval-2" stroke="#29A7F1" stroke-width="3" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
